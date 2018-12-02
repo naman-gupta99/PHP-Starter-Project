@@ -1,2 +1,2 @@
 # PHP-Starter-Project
-CRUD Project for PHP
+This is a CRUD (Create, Read, Update, Delete) Project for getting started with PHP/.

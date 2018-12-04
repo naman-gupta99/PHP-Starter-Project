@@ -5,17 +5,18 @@
     <title>PHP Starter Project</title>
   </head>
   <body>
-    <h1>Create a new Entry</h1>
-      <form action="db_operations.php" method="post">
-        Enter Name : <input type="text" name="name" />
-        Enter Value : <input type="text" name="value" />
-        <input type="submit" name="submit_create" value="SUBMIT" />
-      </form>
-    <hr />
-    <h1>Read all Entries</h1>
-    <hr />
-    <h1>Update an Entry</h1>
-    <hr />
-    <h1>Delete an Entry</h1>
+    <form action="db_operations.php" method="post">
+      <h1>Create a new Entry</h1>
+      Enter Name : <input type="text" name="name" />
+      Enter Value : <input type="text" name="value" />
+      <input type="submit" name="submit_create" value="SUBMIT" />
+      <hr />
+      <h1>Read all Entries</h1>
+      <input type="submit" name="submit_read" value="READ" />
+      <hr />
+      <h1>Update an Entry</h1>
+      <hr />
+      <h1>Delete an Entry</h1>
+    </form>
   </body>
 </html>

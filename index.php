@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Create a new Entry</h1>
-      <form action="db_create.php" method="post">
+      <form action="db_operations.php" method="post">
         Enter Name : <input type="text" name="name" />
         Enter Value : <input type="text" name="value" />
         <input type="submit" name="submit_create" value="SUBMIT" />

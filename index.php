@@ -15,6 +15,10 @@
       <input type="submit" name="submit_read" value="READ" />
       <hr />
       <h1>Update an Entry</h1>
+      Enter ID : <input type="text" name="id" />
+      Enter New Name : <input type="text" name="name" />
+      Enter New Value : <input type="text" name="value" />
+      <input type="submit" name="submit_update" value="UPDATE" />
       <hr />
       <h1>Delete an Entry</h1>
     </form>

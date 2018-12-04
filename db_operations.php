@@ -79,3 +79,22 @@ else if(isset($_POST['submit_update']))
     echo $goback;
   }
 }
+
+//For DELETE operation on the Database
+else if(isset($_POST['submit_delete']))
+{
+  $id = mysqli_real_escape_string($conn, $_POST['id']);
+  if(empty($id))
+  {
+    $message = "Empty Field";
+    echo $message;
+    echo $goback;
+  }
+  else {
+    $sql = "DELETE FROM entries WHERE id = '$id'";
+    mysqli_query($conn, $sql);
+    $message = "Success";
+    echo $message;
+    echo $goback;
+  }
+}

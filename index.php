@@ -21,6 +21,8 @@
       <input type="submit" name="submit_update" value="UPDATE" />
       <hr />
       <h1>Delete an Entry</h1>
+      Enter ID : <input type="text" name="id" />
+      <input type="submit" name="submit_delete" value="DELETE" />
     </form>
   </body>
 </html>
